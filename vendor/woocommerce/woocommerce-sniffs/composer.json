@@ -1,0 +1,24 @@
+{
+    "name": "woocommerce/woocommerce-sniffs",
+    "description": "WooCommerce sniffs",
+    "type": "phpcodesniffer-standard",
+    "license": "MIT",
+    "keywords": [
+        "phpcs",
+        "standards",
+        "static analysis",
+        "WordPress",
+        "WooCommerce"
+    ],
+    "require": {
+        "php": ">=7.0",
+        "wp-coding-standards/wpcs": "^3.0.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
+        "phpcompatibility/phpcompatibility-wp": "^2.1.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
