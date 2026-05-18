@@ -1,0 +1,6 @@
+= 1.0-beta =
+* Initial beta release.
+* AI-generated product listing suggestions.
+* Brand voice onboarding.
+* One-click apply with diff viewer.
+* Suggestion history and undo.
